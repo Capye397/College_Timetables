@@ -26,30 +26,30 @@ while True:
             break
         ##水曜日    
         if week == 2 and hour < 10:
-            x = sqedule[week][0]
+            x = sqedule[week-1][0]
             break
         if week == 2 and hour < 13:
-            x = sqedule[week][1]
+            x = sqedule[week-1][1]
             break
         if week == 2 and hour < 15:
-            x = sqedule[week][2]
+            x = sqedule[week-1][2]
             break
         ## 木曜日 
         if week == 3 and hour < 10:
-            x = sqedule[week][0]
+            x = sqedule[week-1][0]
             break
         if week == 3 and hour < 15:
-            x = sqedule[week][1]
+            x = sqedule[week-1][1]
             break
        ## 金曜日
         if week == 4 and hour < 10:
-            x = sqedule[week][0]
+            x = sqedule[week-1][0]
             break
         if week == 4 and hour < 13:
-            x = sqedule[week][1]
+            x = sqedule[week-1][1]
             break
         if week == 4 and hour < 15:
-            x = sqedule[week][2]
+            x = sqedule[week-1][2]
             break
         
         
